@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+text-decoration: none;
+list-style: none;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: gray;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+}
+.button1 {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 49px;
+    border-radius: 32%;
+}
+.button2 {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 49px;
+    border-radius: 32%;
+}
+.juve {
+    width: 600px;
+    height: 400px;
+    top: 100px;
+}
+.section1 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 70px;
+}
+.section2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+
+}
+.section3 {
+    background-color:lightgray;
+    text-align: center;
+    padding: 30px;
+}
+.section4 {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.section5 {
+    display: flex;
+    justify-content: center;
+    background-color: skyblue;
+    color: brown;
+    border-style: 2px solid;
+    
+    
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: aliceblue;
+    height: 30px;
+    padding: 10px;
+
+}
+.pnews {
+    background-color: aliceblue;
+    color: brown;
+}
+.pmedia {
+    background-color:aliceblue ;
+    color: blueviolet;
+}
+.clubs {
+   background-color:aliceblue ;
+   color: red;
+}
